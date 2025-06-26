@@ -5,3 +5,7 @@ echo FOUND SSH
 
 ls | grep synch || git clone git@github.com:Bretzz/synch.giy
 echo FOUND REPO
+
+mv ~/synch/synch.sh ~/.shortcuts/
+
+termux-setup-storage
