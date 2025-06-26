@@ -1,7 +1,7 @@
 #!/bin/bash
 
-ls ~/.ssh | grep .pup || (ssh-keygen && exit)
+ls ~/.ssh | grep .pub || (ssh-keygen && exit)
 echo FOUND SSH
 
-ls | grep synch || git clone git@github.com:Bretzz/synch
+ls | grep synch || git clone git@github.com:Bretzz/synch.giy
 echo FOUND REPO
