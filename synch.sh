@@ -1,5 +1,5 @@
 #!/bin/bash
 
-ls ~/ | grep synch && (echo "NO REPO" && exit)
+ls ~/ | grep synch
 
-cd ~/synch; git pull && git add . && git commit -m $(date) && git push
+#cd ~/synch; git pull && git add . && git commit -m "$(date)" && git push
