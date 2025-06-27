@@ -10,3 +10,4 @@ ls | grep storage || termux-setup-storage
 echo FOUND STORAGE
 
 mv ~/synch/synch_tommi.sh ~/.shortcuts/
+mv ~/synch/synch_mau.sh ~/.shortcuts/
