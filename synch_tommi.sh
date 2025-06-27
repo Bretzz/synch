@@ -2,7 +2,7 @@
 
 ls ~/ | grep storage || (echo "fatal: no storage" && exit 1)
 
-ls ~/ | grep synch || (echo "fatal: no repo" && exit 1)
+ls ~/storage/shared | grep synch || (echo "fatal: no repo" && exit 1)
 
 cd ~/storage/shared/synch; git pull
 
