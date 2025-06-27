@@ -9,4 +9,4 @@ echo FOUND REPO
 ls | grep storage || termux-setup-storage
 echo FOUND STORAGE
 
-mv ~/synch/synch.sh ~/.shortcuts/
+mv ~/synch/synch_tommi.sh ~/.shortcuts/
